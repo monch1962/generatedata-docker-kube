@@ -13,6 +13,6 @@ generatedata should then be accessible at http://localhost:8000
 
 `$ cd kubernetes`
 
-Make any changes to the files in this directory that are relevant to your specific environment & requirements (e.g. passwords, naming conventions, etc.)
+Make any changes to the files in this directory that are relevant to your specific environment & requirements (e.g. passwords, naming conventions, etc.). Also consider security/access considerations e.g. whether this capability should sit inside its own Kubernetes namespace
 
 `$ kubectl apply -f mysql-deployment.yaml,generatedata-deployment.yaml,generatedata-service.yaml`
