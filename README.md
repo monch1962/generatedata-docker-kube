@@ -1,7 +1,7 @@
 # generatedata-docker-kube
 Deploying generatedocker via docker-compose, and Kubernetes
 
-## To deploy on Docker (2 separate containers)
+## To deploy on Docker (2 linked containers)
 
 `$ cd docker`
 
